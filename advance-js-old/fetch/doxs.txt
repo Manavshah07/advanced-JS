@@ -1,0 +1,57 @@
+Promises:
+------------
+
+1) Promise takes a parameter as function and that function has two arguments resolve and reject.
+2) When the work is done we call resolve();
+3) When the work has error we call reject();
+
+4) Promise can call 2 methods:
+        - then() <called when resolved> 
+        - catch() <called when rejected>;
+
+5) When using fetch method it never goes to catch it stores in then resolve() only because it never gets rejected
+
+TWIST OF FETCH:
+---------------
+
+If you want to get error from fetch you catch manually and write if (!status.ok) 
+<status.ok returns true if succesfull>
+Then throw new error and 
+Then it calls the catch() of the fetch Promise
+and then catch and display the error by console.warn();
+
+
+ARROW:
+----------
+
+Arrow opertaor does the work of sugar syntax.
+It reduces the number of lines of code.
+Syntax:
+Normal:
+const var = function(arguments){
+    //body
+} 
+
+Arrow:
+const var = (arguments) => { 
+    //body
+}
+
+
+No need of {} this when single line in functions body.
+and 
+NO need of() thi when single argument in the function
+
+ASYNC AWAIT
+------------------
+
+It always returns a promise.
+if takes time it returns unresolved promise.
+
+But when using await it halts the program and when 
+reolved then returns the value of promise.
+
+await can be used in async only.
+
+await resolves the promise and returns you the data so no need of calling the then().
+

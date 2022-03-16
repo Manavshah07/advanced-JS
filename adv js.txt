@@ -1,0 +1,71 @@
+ADVANCE JAVASCRIPT
+
+functions 2 types-asynchronous and synchrounous
+asynchronous function acts as a thread in java
+
+
+AJAX
+It is not a Framework
+xhr-ajax[advance javascript and xml]
+AJAX CAN RETURN XML AS WELL AS JSON
+url-always a GET request
+http-is a stateless protocol i.e. each protocol is processed in a different way
+--(It will never store a client request & it  will never remember the request of client. whenever the client sends a request it always get a new request.)
+ajax request will not reload the entire page whereas normal get will reload the entire page
+xhr-XmlHttpRequestit is an AJAX api which in built-in all browsers
+ajax used to communicate with the server without loading or refreshing the entire page
+GET used to recieve something POST used to send some data 
+
+CORS-cross origin request policy
+does not allow local file to open a socket
+
+json has only two types string and int
+json stores data as string and js stores data as array
+
+
+foreach-synchrounous callback
+setTimeInterval- asynchronous callback
+
+API
+(Application Programming Interface)
+it will give any order without my permission
+For web we use REST API
+
+REST API
+REpresentational State Transfer
+treats server object as resources that can be created, fetched,deleted
+
+REST REQUEST
+1-GET-retrieve data from a specified resourse
+2-POST-submit data to be processed to be a specified resource
+3-PUT-update a secified resource
+4-DELETE-Delete a specified resource
+5-head-same as get but does not return a body(it will only return header)
+6-options-returns the supported http method
+7-patch-update a specified resource partially( means it will ask to POST,PUT about resource  & then POST PUT batayega & vo kaam hoga uske POSt & PUT ke hisaab se)
+
+TO COMVERT js OBJECT TO jsON WE USE STRINGIFY
+TO COMVERT JSON OBJECT TO JS WE USE PARSE 
+		
+
+/*********************web pack********************/
+web pack is used to bundle js
+Babel is used to convert es6-7 tp es-5
+In babel,preset is used to convert es6-7 tp es-5
+. is a specal statement in regex
+
+
+for webpack installation
+npm init
+npm install --save-dev babel-loader @babel/core @babel/preset-env webpack-cli webpack-dev-server
+npm install --save @babel/polyfill
+
+& if my software is ready than npm 
+
+
+
+
+
+
+
+

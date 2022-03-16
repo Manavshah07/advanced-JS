@@ -1,0 +1,36 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Post One",
+            "body": "Some content for Post One",
+            "author": "Study Link"
+        },
+        {
+            "id": 2,
+            "title": "Post Two",
+            "body": "Some content for Post Two",
+            "author": "HT"
+        },
+        {
+            "id": 3,
+            "title": "Post Three",
+            "body": "Some content for Post Three",
+            "author": "Study Link"
+        }
+    ],
+
+    "comments": [
+        {
+            "id": 1,
+            "body": "Some comment related to post 1",
+            "postId": 1
+        }
+    ],
+    "profile": [
+        {
+            "id": 1,
+            "name": "Study Link"
+        }
+    ]
+}
